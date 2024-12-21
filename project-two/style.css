@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.main{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    /* border: 1px solid black; */
+    height: 270px;
+    gap: 15px;
+}
+
+.circle{
+    border: 2px solid black;
+    width: 20%;
+    height: 190px;
+    border-radius: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.btn{
+    border: 1px solid grey;
+    width: 150px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    background-color: antiquewhite;
+}
+
+.btn1{
+    border: 2px solid black;
+    width: 40px;
+    height: 20px;
+    background-color: peru;
+}
+
+.btn2{
+    border: 2px solid black;
+    width: 40px;
+    height: 20px;
+    background-color: peru;
+}
